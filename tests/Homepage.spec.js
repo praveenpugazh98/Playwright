@@ -8,5 +8,5 @@ console.log('page title is',pageTitle);
 await expect(page).toHaveTitle('STORE');
 await expect(page).toHaveURL('https://demoblaze.com/')
 //await page.pause();
-await page.close();
+//await page.close();
 })
